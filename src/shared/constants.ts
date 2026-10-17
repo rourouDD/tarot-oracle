@@ -25,7 +25,7 @@ export const UI_MODULE_ID = "tarot_oracle";
 export const RENDER_TAG = "tarot";
 
 /** 交互抽牌会话状态落盘目录（与 UNO 一致，走 cleanOnExit 自动清理） */
-export const SESSION_DIR = "/storage/emulated/0/Download/Operit/cleanOnExit/tarot_oracle";
+export const SESSION_DIR = "cleanOnExit/tarot_oracle";
 
 export interface TarotRenderState {
   sessionId: string;
