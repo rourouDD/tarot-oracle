@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "toolpkg_id": "com.mi.rou.tarot_oracle",
+  "version": "1.0.0",
+  "api_version": "1.0.0",
+  "main": "dist/main.js",
+  "display_name": {
+    "zh": "塔罗问卜",
+    "en": "Tarot Oracle"
+  },
+  "description": {
+    "zh": "写下想问的事，抽韦特塔罗，一键把牌面发到对话框交给 AI 解读。支持单张、时间流三张、选择十字三种牌阵与正逆位。",
+    "en": "Ask a question, draw Waite tarot cards, and send the reading to the AI chat for interpretation."
+  },
+  "enabled_by_default": true,
+  "subpackages": [
+    {
+      "id": "tarot_oracle",
+      "entry": "dist/packages/tarot_oracle.js",
+      "enabled_by_default": true,
+      "display_name": {
+        "zh": "塔罗问卜",
+        "en": "Tarot Oracle"
+      },
+      "description": {
+        "zh": "让 AI 直接抽塔罗牌并拿到牌面结果用于解读。",
+        "en": "Let the AI draw tarot cards and receive the result for interpretation."
+      }
+    }
+  ]
+}
